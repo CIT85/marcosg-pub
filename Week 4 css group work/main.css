@@ -70,4 +70,585 @@ table {
     font-weight: bold;
     font-style: normal;
   }
+  /* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the table header */
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Style table cells */
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Style the header row */
+thead th {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+}
+
+/* Add some spacing between table cells */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style the "Time" and "Activity" cells in the first row */
+tr:nth-child(odd) td:nth-child(2), tr:nth-child(odd) td:nth-child(3) {
+  font-weight: bold;
+}
+
+/* Style the "Time" cells with datetime attributes */
+time {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Style the "Time" cells in the first row */
+tr:nth-child(odd) td time {
+  font-weight: bold;
+  font-style: normal;
+}
+/* Reset some default browser styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the color palette section */
+  .palette {
+    margin-top: 20px;
+  }
+  
+  .palette h3 {
+    color: #333;
+  }
+  
+  /* Style the color boxes */
+  div.blue, div.red, div.gray, div.dark.gray, div.green {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  div.blue {
+    background-color: #007BFF;
+  }
+  
+  div.red {
+    background-color: #FF6B6B;
+  }
+  
+  div.gray {
+    background-color: #F0F0F0;
+  }
+  
+  div.dark.gray {
+    background-color: #333333;
+  }
+  
+  div.green {
+    background-color: #00C49F;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style links in the footer */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Add a hover effect for links in the footer */
+  footer a:hover {
+    text-decoration: underline;
+  }
+  /* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style headings */
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Style images and captions */
+  figure {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    color: #777;
+    font-style: italic;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style ordered list items */
+  ol {
+    margin: 20px 0;
+  }
+  
+  ol li {
+    list-style: decimal;
+    margin-left: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style links in the footer */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Add a hover effect for links in the footer */
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li, figure, table, th, td {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style headings */
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Style images and captions */
+  figure {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    color: #777;
+    font-style: italic;
+  }
+  
+  /* Style ordered list items */
+  ol {
+    margin: 20px 0;
+  }
+  
+  ol li {
+    list-style: decimal;
+    margin-left: 20px;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li, figure, table, th, td, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style headings */
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Style images and captions */
+  figure {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  figcaption {
+    color: #777;
+    font-style: italic;
+  }
+  
+  /* Style definition list (dl) */
+  dl {
+    margin-top: 20px;
+  }
+  
+  dl dt {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  dl dd {
+    margin-left: 20px;
+  }
+  
+  /* Style the form */
+  form {
+    margin-top: 20px;
+  }
+  
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  legend {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style links in the footer */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Add a hover effect for links in the footer */
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Style the navigation bar */
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style headings */
+  h1, h2, h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Style the color palette */
+  .palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .palette div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style the footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style links in the footer */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Add a hover effect for links in the footer */
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the header */
+header {
+    background-color: white; /* Change the background color to white */
+    color: #333;
+    text-align: center;
+    padding: 10px;
+  }
   
