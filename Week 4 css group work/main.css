@@ -634,7 +634,7 @@ body, h1, h2, h3, p, ul, li, div {
   
   /* Style links in the footer */
   footer a {
-    color: #fff;
+    color: #ffffff21;
     text-decoration: none;
     margin: 0 10px;
   }
@@ -652,4 +652,11 @@ header {
     padding: 10px;
   }
   
+  /* Style the header */
+header {
+    background-color: grey; /* Keep the background color as grey */
+    color: rgba(169, 169, 169, 0.212); /* Change the font color to dark grey */
+    text-align: center;
+    padding: 10px;
+  }
   
