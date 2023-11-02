@@ -646,9 +646,10 @@ body, h1, h2, h3, p, ul, li, div {
   
   /* Style the header */
 header {
-    background-color: white; /* Change the background color to white */
-    color: #333;
+    background-color: grey; /* Change the background color to white */
+    color: black; /* Change the font color to white */
     text-align: center;
     padding: 10px;
   }
+  
   
