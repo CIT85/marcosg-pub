@@ -22,6 +22,10 @@
             <img src="learnmore.png" alt="Learn" width="512" height="512" loading="lazy">
             <figcaption>Big Learn More Button</figcaption>
         </figure>
+        <figure>
+            <img src="outliner 3.JPG" alt="outliner" title="outliner" width="512" height="155" loading="lazy" >
+            <figcaption>Learn More Outline</figcaption>
+        </figure>
         <p><strong>These are The 3 Tags I want Learn More about and use in My Coding</strong> </p>
         <dl>
             <dt><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article" target="_blank">&lt;articles &gt;</a></dt> 
@@ -34,6 +38,46 @@
             <dt><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio" target="_blank">&lt;audio&gt;</a></dt>
             <dd>The audio HTML element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the element: the browser will choose the most suitable one.</dd> 
         </dl>
+        <article>
+            <h2>Contact Me:</h2>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset class="contact">
+                    <legend>Personal Information</legend>
+                        <p >
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="LastName">Last Name:</label>
+                            <input type="text" name="LastName" id="LastName" placeholder="Doe" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="email">Last Name:</label>
+                            <input type="email" name="email" id="email" placeholder="Email" autocomplete="on" required >
+                        </p>
+                        <p>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="1-800-333-3333" autocomplete="on" pattern="[0-1]{1}[0-9]{3}[0-9]{3}[0-9]{4}" >
+                        </p>
+                        
+                            <h3>How to contact you back:</h3>
+                            <input type="radio" name="emailButton" id="emailButton" value="emailButton">
+                            <label for="emailButton">email</label>
+                            <input type="radio" name="phone" id="phone" value="phone">
+                            <label for="phone">phone</label>
+                            <input type="radio" name="text" id="text" value="text">
+                            <label for="text">text</label>
+                        
+                        <p>
+                            <label>Your Message:</label>
+                            <br>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="type your message here" required>
+                            </textarea>
+                        </p>
+                        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+                    </fieldset>
+                </form>            
+        </article>    
         <nav>
             <ul>   
             <li><a href="index.html"><strong>Back to Home</strong></a></li>
