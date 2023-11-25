@@ -1,0 +1,93 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+address {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.site-page {
+    background-color: var(--color-background, #f7f7f7);
+    color: var(--color-text, #333);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--color-header-background, #333);
+    color: var(--color-header-text, #fff);
+}
+
+.nav-menu {
+    background-color: var(--color-nav-background, #444);
+    padding: 10px 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: var(--color-nav-text, #fff);
+    padding: 10px;
+    display: inline-block;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--color-heading, #333);
+}
+
+.color-box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: var(--color, #808080);
+    border: 1px solid var(--color-border, #333);
+}
+
+article {
+    border: 1px solid var(--color-border, #ddd);
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color-footer-background, #333);
+    color: var(--color-footer-text, #fff);
+}
+
+#back-to-top {
+    margin-right: 10px;
+    color: var(--color-footer-text, #fff);
+}
+
+/* Style the links */
+a {
+    color: var(--color-link, #007bff);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
