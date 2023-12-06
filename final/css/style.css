@@ -1,0 +1,148 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+address {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default styles for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Define styles for the main page container */
+.site-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Styles for the header section */
+header {
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    background-color: var(--color-nav-background, #444);
+}
+
+/* Styles for the navigation menu */
+.nav-menu {
+    background-color: var(--color-nav-background, #444);
+    padding: 10px 0;
+}
+
+/* Styles for navigation menu links */
+.nav-menu a {
+    text-decoration: white;
+    color: var(--color-nav-text, #fff);
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Styles for the main content area */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Styles for sections within the main content */
+section {
+    margin-bottom: 20px;
+}
+
+/* Styles for heading level 2 */
+h2 {
+    color: var(--color-heading, rgba(255, 0, 0, 0.63));
+}
+
+/* Styles for a color box */
+.color-box {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color: var(--color, #808080);
+    border: 1px solid var(--color-border, #333);
+}
+
+/* Styles for article elements */
+article {
+    border: 1px solid var(--color-border, #ddd);
+    padding: 10px;
+}
+
+/* Styles for the footer section */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--color-footer-background, #333);
+    color: var(--color-footer-text, #fff);
+}
+
+/* Styles for a back-to-top link */
+#back-to-top {
+    margin-right: 10px;
+    color: var(--color-footer-text, #fff);
+}
+
+/* Style the links */
+a {
+    color: var(--color-link, #007bff);
+}
+
+/* Hover styles for links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Responsive styles for different screen sizes */
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    header {
+        grid-template-rows: auto auto;
+    }
+
+    .nav-menu {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile Devices */
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    /* Add your styles for this range */
+}
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Add your styles for this range */
+}
+
+/* Small screens, laptops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Add your styles for this range */
+}
+
+/* Desktops, large screens */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    /* Add your styles for this range */
+}
+
+/* Extra large screens, TV */
+@media screen and (min-width: 1201px) {
+    /* Add your styles for this range */
+}
