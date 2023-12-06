@@ -123,26 +123,45 @@ img {
     }
 }
 
-/* Mobile Devices */
-@media screen and (min-width: 0px) and (max-width: 480px) {
-    /* Add your styles for this range */
-}
-/* iPads, Tablets */
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    /* Add your styles for this range */
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    header {
+        grid-template-rows: auto auto;
+    }
+
+    .nav-menu {
+        grid-template-columns: 1fr;
+    }
 }
 
-/* Small screens, laptops */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Add your styles for this range */
+/* Larger mobile devices (landscape phones, small tablets) */
+@media screen and (min-width: 481px) and (max-width: 767px) {
 }
 
-/* Desktops, large screens */
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    /* Add your styles for this range */
+/* Tablets, iPads */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 }
 
-/* Extra large screens, TV */
-@media screen and (min-width: 1201px) {
-    /* Add your styles for this range */
+/* Small laptops, larger tablets */
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+}
+
+/* Medium-sized laptops */
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+}
+
+/* Large laptops and desktops */
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+}
+
+/* Larger desktops, high-resolution screens */
+@media screen and (min-width: 1920px) {
+}
+
+/* 4K and above */
+@media screen and (min-width: 2560px) {
+}
+
+/* Ultra-wide monitors */
+@media screen and (min-width: 3440px) {
 }
